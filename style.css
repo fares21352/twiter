@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.quote-card {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 10px 9px 10px rgba(0, 0, 0, 0.2);
+    height: 460px;
+}
+
+#quotecd {
+    font-size: 50px;
+    font-weight:100;
+
+}
+
+#author {
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+}
+
+.oldman {
+    width: 200px;
+    height: 500px;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.right {
+    width: 20px;
+    height: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    background-image: url(portrait.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 200px;
+    height: 500px;
+}
+
+.quote {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+.heart {
+    display: flex;
+    align-items: center;
+    margin-left: 320px;
+}
+
+.heart-img {
+    width: 20px;
+    height: 20px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#right-arrow {
+    background-color: transparent;
+    border: 0px;
+}
