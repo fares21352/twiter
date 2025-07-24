@@ -9,15 +9,16 @@ button.addEventListener("click", displayData);
 var index = 0;
 
 function displayData () {
-    quoteText.innerText = messages[index].texte
+   if ( index >= messages.length) {
+    index = 0
+ }
+   quoteText.innerText = messages[index].texte
     index = index + 1
 
     //  get the lenght of the array
     console.log(messages);
     asm.innerText = messages [index].auteur
- if ( index >= messages.length) {
-    index = 0
- }
+
 
     // if the index is bigger than the array
     // set the array to 0
